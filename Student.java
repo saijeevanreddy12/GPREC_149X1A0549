@@ -1,4 +1,3 @@
-package test;
 import java.util.Date;
 
 /**
@@ -10,17 +9,18 @@ import java.util.Date;
  * 
  */
 public class Student implements Comparable {
-
+          
 	/**
 	 * student id
 	 */
 	private int id;
-
+        
 	/**
 	 * student name and surname separated by the whitespace for example:
 	 * fullName = "David Luis";
 	 */
 	private String fullName;
+           
 
 	/**
 	 * student date of birth in "yyyy-MM-dd" format
@@ -40,14 +40,18 @@ public class Student implements Comparable {
 	}
 
 	public int getId() {
-		return id;
+	       
+	
+           return id;
 	}
 
 	public void setId(int id) {
+                       
 		this.id = id;
 	}
 
 	public String getFullName() {
+                 
 		return fullName;
 	}
 
@@ -56,6 +60,7 @@ public class Student implements Comparable {
 	}
 
 	public Date getBirthDate() {
+                 
 		return birthDate;
 	}
 
@@ -64,6 +69,7 @@ public class Student implements Comparable {
 	}
 
 	public double getAvgMark() {
+                  
 		return avgMark;
 	}
 
@@ -91,4 +97,3 @@ public class Student implements Comparable {
 		return (this.fullName.compareTo(other.fullName));
 	}
 }
-

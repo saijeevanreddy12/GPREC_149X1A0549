@@ -1,4 +1,3 @@
-package test;
 import java.util.Date;
 
 /**
@@ -277,4 +276,3 @@ public interface StudentArrayOperation {
 	Student getNextStudent(Student student);
 
 }
-
